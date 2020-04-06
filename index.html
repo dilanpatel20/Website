@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="/css/main.css"> <!-- CSS -->
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
 
@@ -15,7 +16,7 @@
 
 
     <div id="loader-wrapper">
-        <div id="loader"></div>
+        <div id="loaded"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>
@@ -26,6 +27,12 @@
             doloribus repellat? Labore, dignissimos quia voluptatum totam repellendus itaque omnis sint temporibus natus
             velit minima.</p>
     </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/js/loaded.js"></script>
+
+
 
 
 </body>
